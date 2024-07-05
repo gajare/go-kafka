@@ -30,7 +30,7 @@ func main() {
 	err = writer.WriteMessages(ctx,
 		kafka.Message{
 			Key:   []byte("key-A"),
-			Value: []byte("Hello World.."),
+			Value: []byte("Hello Amot"),
 		})
 
 	if err != nil {
